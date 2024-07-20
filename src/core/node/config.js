@@ -119,7 +119,7 @@ async function prep() {
 
   // TODO: move dns* related settings to env
   // flydns is always ipv6 (fdaa::53)
-  const plainOldDnsIp = onFly ? "fdaa::3" : "1.1.1.2";
+  const plainOldDnsIp = onFly ? "fdaa::3" : "8.8.8.8";
   let dns53 = null;
   /** swap space and recursive resolver on Fly */
   if (onFly || true) {
