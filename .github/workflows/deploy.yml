@@ -30,7 +30,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "hiroto"
-          entrypoint: "src/core/deno/config.ts"
+          entrypoint: "src/server-deno.ts"
           root: ""
           
           
