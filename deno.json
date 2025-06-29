@@ -3,7 +3,7 @@
     "allowJs": true
   },
   "importMap": "import_map.json",
-  "nodeModulesDir": "none", // Changed from "auto"
+   // "nodeModulesDir": "auto", <-- REMOVE THIS LINE
   "lock": false,
   "lint": {
     "files": {
